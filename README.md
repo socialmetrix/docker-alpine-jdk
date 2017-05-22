@@ -20,7 +20,9 @@ Oracle JDK http://www.oracle.com/technetwork/java/javase/overview/index.html
 For use jdk7:
 
 **~# cd jdk7**
+
 **~# docker build . socialmetrix/docker-alpine-jdk:version**
+
 **~# docker run -it -rm socialmetrix/docker-alpine-jdk:version
 **
 
