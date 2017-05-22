@@ -23,8 +23,7 @@ For use jdk7:
 
 **~# docker build . socialmetrix/docker-alpine-jdk:version**
 
-**~# docker run -it -rm socialmetrix/docker-alpine-jdk:version
-**
+**~# docker run -it -rm socialmetrix/docker-alpine-jdk:version**
 
 
 ~
