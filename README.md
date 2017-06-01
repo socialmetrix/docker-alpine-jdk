@@ -8,22 +8,17 @@ Docker Hub of Alpine Linux https://hub.docker.com/_/alpine/
 Repository of glibc https://github.com/sgerrand/alpine-pkg-glibc
 Oracle JDK http://www.oracle.com/technetwork/java/javase/overview/index.html
 
+## Usage
+```bash
+git clone https://github.com/socialmetrix/docker-alpine-jdk.git
+cd docker-apline-jdk
+```
 
+## For use jdk7:
 
-<strong>Usage</strong>
-
-
-**~#git clone** https://github.com/socialmetrix/docker-alpine-jdk.git
-
-**~#cd docker-apline-jdk**
-
-For use jdk7:
-
-**~# cd jdk7**
-
-**~# docker build . socialmetrix/docker-alpine-jdk:version**
-
-**~# docker run -it -rm socialmetrix/docker-alpine-jdk:version**
-
-
-~
+```
+cd jdk7**
+docker build . socialmetrix/docker-alpine-jdk:jdk7
+# test
+docker run -it -rm socialmetrix/docker-alpine-jdk:jdk7
+```
