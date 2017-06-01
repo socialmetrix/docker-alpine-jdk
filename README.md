@@ -14,10 +14,10 @@ git clone https://github.com/socialmetrix/docker-alpine-jdk.git
 cd docker-apline-jdk
 ```
 
-## For use jdk7:
+## If you want to compile for JDK7:
 
 ```
-cd jdk7**
+cd jdk7
 docker build . socialmetrix/docker-alpine-jdk:jdk7
 # test
 docker run -it -rm socialmetrix/docker-alpine-jdk:jdk7
