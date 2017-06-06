@@ -18,8 +18,8 @@ ENV JAVA_VERSION_MAJOR=8 \
 
 # do all in one step
 RUN set -ex && \
-    apk upgrade --update && \
-    apk upgrade --available && \
+    apk update && \
+    apk upgrade  && \
     apk add --update libstdc++ curl ca-certificates bash wget && \
     wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://raw.githubusercontent.com/sgerrand/alpine-pkg-glibc/master/sgerrand.rsa.pub && \
     update-ca-certificates && \
